@@ -33,7 +33,7 @@ def setup2(yob, mob):
     # return [year_of_birth, month_of_birth]       # year_of_birth, month_of_birth
 
 
-@then(parsers.parse("the program displays Your full retirement age is {retirement_age:d} and {retirement_month:d} months."))
+@then(parsers.parse("the program displays Your full retirement age is {retirement_age:d} and {retirement_month:d} months"))
 def correct_retirement_age(setup2, retirement_age, retirement_month):
     assert find_retirement_age(setup2[0]) == [retirement_age, retirement_month]
     return find_retirement_age(setup2[0])

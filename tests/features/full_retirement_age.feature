@@ -5,7 +5,7 @@ Feature: Calculate retirement age
 
 	Scenario Outline: User looks for retirement age and retirement date
 	Given year_of_birth is entered as <yob>, month_ob_birth is entered as <mob>
-	Then the program displays 'Your full retirement age is <retirement_age> and <retirement_month> months.'
+	Then the program displays Your full retirement age is <retirement_age> and <retirement_month> months
 	And the program displays <future_month> of <future_year>
 
 	Examples: Inputs
