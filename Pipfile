@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+attrs = "==21.2.0"
+iniconfig = "==1.1.1"
+numpy = "==1.21.4"
+pluggy = "==1.0.0"
+py = "==1.11.0"
+pyparsing = "==2.4.7"
+pytest = "==6.2.5"
+toml = "==0.10.2"
+camelcase = "*"
+pytest-bdd = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
