@@ -69,4 +69,3 @@ def calculate_retirement_date(year_of_birth, month_of_birth, normal_retirement_a
         year += 1
     return [year, months]
 
-main(1900, 4)

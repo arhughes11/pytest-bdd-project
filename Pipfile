@@ -13,7 +13,7 @@ pyparsing = "==2.4.7"
 pytest = "==6.2.5"
 toml = "==0.10.2"
 camelcase = "*"
-pytest-bdd = "*"
+pytest-bdd = "5.0.0"
 
 [dev-packages]
 
