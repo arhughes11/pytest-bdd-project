@@ -1,7 +1,6 @@
 from pytest_bdd import parsers, given, then, scenario
 import re
-import sys
-sys.path.insert(0, '/Users/andrewhughes/Desktop/full_retirement_age')
+
 from full_retirement_age import find_retirement_age, calculate_retirement_date
 
 
